@@ -1,14 +1,14 @@
 // alert('You linked to me.');
 
 // document ready says 'wait until document is ready before doing anything else'
-$(document).ready(function(){
+$(document).ready(function() {
 
-/*-------------------------------------
-| Animating The Scroll
--------------------------------------*/
+  /*-------------------------------------
+  | Animating The Scroll
+  -------------------------------------*/
 
   //whenever a nav anchor is clicked, do what is in the brackets
-  $('nav a').click(function(){
+  $('nav a').click(function() {
 
     //1. kill the default behavior
     event.preventDefault();
@@ -18,9 +18,10 @@ $(document).ready(function(){
 
     //3. animate to section
 
-
-    // https://stackoverflow.com/questions/832860/how-to-scroll-the-window-using-jquery-scrollto-function
-    $('html, body').animate({scrollTop: $(whichSect).offset().top}, 1000);
+    //https://stackoverflow.com/questions/832860/how-to-scroll-the-window-using-jquery-scrollto-function
+    $('html, body').animate({
+      scrollTop: $(whichSect).offset().top
+    }, 1500);
   });
 
 });

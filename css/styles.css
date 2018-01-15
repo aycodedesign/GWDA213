@@ -1,40 +1,56 @@
+* {
+  border: solid 1px black;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif;
-	background-color: #333;
-	color: teal;
+  background-color: #393C4F;
+  color: teal;
+  font-size: 1.6rem;
 }
 
 div {
-  background-color: white;
-  width: 600px;
+  background-color: #FF6600;
+  width: 75%;
   margin: auto;
   padding: 25px;
 }
 
-h1{
+h1 {
   background-color: pink;
 }
+
 h2 {
   background-color: purple;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
 }
 
 nav a {
   display: inline-block;
   background-color: teal;
-  padding: 15px;
+  padding: 5px 10px 5px 10px;
   border-radius: 5px;
   color: white;
-  width: 60px;
+  width: 100px;
   text-align: center;
   text-decoration: none;
 }
 
 p {
-  background-color: gray;
-  font-size: 30px;
   line-height: 20px;
   padding: 20px;
-  color: red;
 }
 
 section {
